@@ -21,15 +21,15 @@ class _HomePageState extends State<HomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            // SizedBox(
-            //     width: 200,
-            //     child: Button(
-            //       text: "Biz haqimizda",
-            //       color: Colors.green,
-            //       click: () {
-            //         Get.to(() =>const AboutPage());
-            //       },
-            //     )),
+            SizedBox(
+                width: 200,
+                child: Button(
+                  text: "Biz haqimizda",
+                  color: Colors.green,
+                  click: () {
+                    Get.to(() =>const AboutPage());
+                  },
+                )),
             SizedBox(
                 width: 200,
                 child: Button(
